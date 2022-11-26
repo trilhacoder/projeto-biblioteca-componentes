@@ -1,0 +1,67 @@
+.botao {
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: #0033CC;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+.botao.botao-primary {
+    color: #FAFBFF;
+}
+
+.botao.botao-primary:hover {
+    cursor: pointer;
+    background-color: #002080;
+}
+
+.botao.botao-primary:active {
+    cursor: pointer;
+    background-color: #000D33;
+    box-shadow: none;
+}
+
+.botao.botao-desativado {
+    background-color: #D4DFFF;
+    box-shadow: none;    
+}
+
+.botao.botao-desativado:hover {
+    cursor: not-allowed;
+    background-color: #D4DFFF;
+}
+
+/* outline */
+.botao.botao-outline {
+    color: #0033CC;
+    border: 2px solid #0033CC;
+    background-color: #FAFBFF;
+}
+
+.botao.botao-outline:hover {
+    color: #002080;
+    cursor: pointer;
+    border: 2px solid #002080;
+}
+
+.botao.botao-outline:active {
+    color: #000D33;
+    cursor: pointer;
+    border: 2px solid #000D33;
+    box-shadow: none;
+}
+
+.botao-outline.botao-desativado {
+    color: #D4DFFF;
+    background-color: #FAFBFF;
+    box-shadow: none;
+    border: 2px solid #D4DFFF;
+}
+
+.botao-outline.botao-desativado:hover {
+    cursor: not-allowed;
+    background-color: #FAFBFF;
+    color: #D4DFFF;
+    border: 2px solid #D4DFFF;
+}

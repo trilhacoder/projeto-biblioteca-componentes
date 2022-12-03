@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+
+}
+
+.breadcrumb li {
+    list-style: none;
+}
+
+.breadcrumb a {
+    color: #3D3D3D;
+    font-size: 18px;
+}
+
+.breadcrumb .icone {
+    height: 30px;
+}
+
+.breadcrumb li * {
+    vertical-align: middle;
+}
+
+.breadcrumb .separador {
+    margin-left: 10px;
+    margin-right: 10px;
+}
